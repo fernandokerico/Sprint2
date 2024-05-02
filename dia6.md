@@ -13,7 +13,7 @@ Video sobre Como ser um analista QA de sucesso:
         ☼ Test Drivers Development (TDD)
         ☼ Behavior Drivers Development (BDD)
         ☼ Domain Drivers Development (DDD)
-
+# Uma das principais atividades de um analista é saber priorizar.
     O analista de testes faz a validação do produto.
     O analista QA faz a validação do processo.
 
@@ -25,4 +25,27 @@ PRIORIZAÇÃO DE TESTES
         "PRIORIZAR NÃO DEIXA DE SER TESTAR OUTRAS COISAS."
 
         ATIVIDADE:
-        
+        Escolher segmento e aplicação na internet, e ccriar lista de fluxos prioritários para validação.
+        Passo1: Apresentar a aplicação, o segmento e o objetivo principal do sistema;
+        Passo2:Elaborar lista de fluxos de validação prioritários no sistema escopos;
+        Passo3: Ordenar a lista e forma lógica, para a realização de fluxos completos na aplicação.
+
+        1- O segmento escolhido será vendas online, de uma pizzaria. A lista de fluxos será:
+            Cadastro e Login de usuários;
+            Personalização da pizza
+            Adição ao carrinho
+            Carrinho de compras
+            Navegar no Menu
+            Confirmação do pedido
+            Processo do Pagamento
+            Rastreamento do pedido
+            Cadastro de usuário
+            Comunição com o cliente(Verificar se chegou, feedback etc...)
+
+        -Lista de fluxos prinipais:
+            Cadastro e Login de usuários;
+            Personalização da pizza
+            Carrinho de compras
+            Processo do Pagamento
+            Rastreamento do pedido
+            Comunição com o cliente

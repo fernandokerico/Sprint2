@@ -4,7 +4,7 @@ O planejamento engloba três atividades principais:
 
 1.Definir um cronograma de atividades: estabelecer as
 atividades que devem ser realizadas, as etapas a serem seguidas
- e a ordem cronológica de execução;
+e a ordem cronológica de execução;
 
 2.Fazer alocação de recursos: definir quem realiza as 
 atividades e quais ferramentas/recursos a serem utilizados;

@@ -1,33 +1,20 @@
-DIA 1 - CONCEITOS HTTP, API REST, JSON, USER STORIES E ISSUES.
+DIA 2 - Testes Estáticos (Swagger)
 
-User Stories ou História de usuários é a descrição resumida das features.
-    ► Cada história deve ser independente.
-    ► Deve ser testável (automatizado ou manual).
-    ☼ História do usuário mensurável: quanto de esforço deve ser aplicado para sua conclusão.
+Para ler uma APIRest, usamos o framework Swagger (descrição dos recursos de uma API.) Quais são os parametros:
+    ☼ Método: É a intenção;
+    ☼ URI: Qual recurso queremos acessar;
+    ☼ Cabeçalho (header): Não usa sempre, só quando pede autentificação. Token;
+    ☼ Corpo: Para fazer alteração: Tipo uma IDE;
 
-EXAMPLE MAPPING:
-    ☼ Técnica para identificar.
-    ☼ 3 amigos: Cliente, Desenvolvedor e Testador.
-    ☼ Apenas 30 minitos de reunião.
+PARAMETRO PATH: { } o que será colocado para puxar as informações. "77" seria um ID.
+QUERY é um parametro depois da informação;
+PARAMETROS são informações;
+Response representa as possibilidades de respostas a serem recebidas;
+O formato em que voce vai receber será Response Content Type;
+[] = é uma lista. O que tiver dentro dela será o objeto.
 
-AMARELO: HISTÓRIA → Descrição do que será implementada.
-                    ☼ Como/sendo;
-                    ☼ Eu quero/ gostaria;
-                    ☼ Para/porque
-AZUL: REGRAS → As regras que serão implementadas.
-VERDE: EXEMPLOS → Como essa regra deve ser testada:
-                    ☼ Contexto;
-                    ☼ Ação;
-                    ☼ Resultados;
-VERMELHO: QUESTIONAMENTOS.
+Gostaria de acrescentar um comentário, feito por um colega:
+[24/04 14:34] Rafael Sousa de Morais Junior
+"o swagger serve pra criar a documentação da api, o postman pra testar a api" 
 
-Exemplo de uma User Stories:
-HISTÓRIA: Como um usuário autenticado, quero criar um anúncio pago para vender meu produto rapidamente.
-    REGRAS: Deve prencher os dados obrigatórios do produto.
-            EXEMPLO: Prencheu todos os dados obrigatórios, submeteu ao form → OK
-                     Esqueceu de informar o título do produto, submeteu ao form → ERRO
-
-    REGRAS: Anuncio com destaque deve ficar pendente até confirmação do pagamento.
-            EXEMPLO: Prencheu todos os campos, selecionou o anuncio destacado. Submeteu ao form → pendente
-                    QUESTIONAMENTOS: Como o usuário faz para pagar o anúncio?
-                    Será uma nova feature (Como usuário, quero pagar meu anuncio para ativá-lo).
+https://www.youtube.com/watch?v=UbNwR07Id64&list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX

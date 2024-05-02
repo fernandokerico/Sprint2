@@ -1,0 +1,30 @@
+Nome do Projeto: Teste de Funcionalidades para o Marketplace ServeRest.
+
+Resumo do Planejamento: Este plano de testes visa garantir que as funcionalidades CRUD para os recursos de autenticação, produtos e usuários no Marketplace ServeRest estejam funcionando conforme o esperado.
+
+Pessoas Envolvidas:
+   Cliente/Usuário.
+   Analista de teste.
+
+Funcionalidade: Funcionalidades CRUD para autenticação, produtos e usuários.
+
+Recursos Necessários:
+   - Software: Ferramentas de teste (como Postman ou Swagger).
+   - Rede: Acesso à rede local para acessar as ferramentas.
+
+Critérios Usados:
+   - Os vendedores deverão possuir campos para nome, email, senha e status.
+   - Um usuário só pode ter um cadastro.
+
+Riscos:
+   - Possível queda de energia ou problema com conexão da internet. Pode ser resolvida com um conexão via celular. 
+   - Problemas de desempenho durante a manipulação de grandes volumes de dados.
+
+Divulgação dos Resultados dos Testes:
+   - Um relatório de defeitos será commitado no GitHub nas ISSUES.
+
+Cronograma:
+    - Início do Projeto: 22/04/2024
+    - Período de Testes: 23/04/2024 - 02/05/2024
+    - Tabulação dos Dados e Elaboração de Relatórios: 02/05/2024 - 03/05/2024
+
