@@ -1,1 +1,9 @@
-Nesta README trabalharemos com as ferramentas Postman e Swagger. Estudaremos sobre planejamento de testes, CRUD, DoR, DoD e Acceptance Criteria, mapa mentais, Issues, Issues Board e User Storie.
+## Sprint 2:
+* Fundamentos API Rest;
+* Testes de APIs Rest;
+* Análise de testes;
+* Plano de testes;
+* Introdução ao Postman;
+
+###### Clique [aqui](https://compassuol.serverest.dev/) para acessar a ServeRest.
+###### Clique [aqui](https://compa) para acessar a ServeRest.
