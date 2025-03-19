@@ -1,0 +1,24 @@
+/* 1️⃣ Somar Todos os Elementos de um Array Unidimensional
+📌 Descrição:
+Escreva uma função que recebe um array de números e retorna a soma de todos os seus elementos.
+📌 Instruções:
+Retorne a soma total dos elementos do array.
+Uma mensagem de erro deve ser retornada quando um valor invalido for enviado.
+*/ 
+
+function add(array){
+
+    for (let i=0; i<array.length; i++){
+        if (typeof array[i] !== 'number'){
+            return'Valor inválido'
+        }
+    }
+        let soma=0
+    for (let i=0; i<array.length; i+=1){
+        soma = soma + array[i]
+    }
+    return soma
+}
+
+console.log(add([1,2,3,4,'txt']))
+console.log(add([1,2,3,4,5]))
